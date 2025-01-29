@@ -2,8 +2,6 @@ package fr.efrei.rag.domain;
 
 import jakarta.persistence.*;
 
-import jakarta.persistence.*;
-
 @Entity
 public class Document {
     @Id

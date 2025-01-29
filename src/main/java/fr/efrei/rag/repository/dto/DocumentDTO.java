@@ -1,4 +1,4 @@
 package fr.efrei.rag.repository.dto;
 
-public class DocumentDTO {
+public record DocumentDTO(Long id, String title) {
 }
