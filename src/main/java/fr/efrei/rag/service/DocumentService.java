@@ -16,4 +16,7 @@ public class DocumentService {
         //log.debug("Request to save Document : {}", document);
         return documentRepository.save(document);
     }
+//    public list<Document> findAll() {
+//        return documentRepository.findAll();
+//    }
 }
